@@ -1,0 +1,185 @@
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+    /*   لإضافة طبقة من السواد امام الصورة، وهذا سيجعل النص اسهل للقراءة "linear-gradient" استخدم */
+    /* url بعده نضيف الصورة كخلفية */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(pic/IMG-20250111-WA0003.jpg) ;
+        /* بعض الخصائص للصورة لتظهر بشكل مناسبة */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+  /* هذه الخطوتين هم الاهم ولا يجب اهمالهما */
+  /* relative خصاية الـ */
+  position: relative;
+  /* اعط العنصر طول معين */
+  height: 100%;
+}
+/* خصائص النص */
+.hero-text {  
+    text-align: center;
+     /* هذه الخاصية هي الاهم */
+  position: absolute;
+  
+  /* هذه الخصائص لتوسيط النص بالنسبة للصورة */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  color: rgb(255, 255, 255);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.services {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+/* إعدادات عامة */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  text-align: center;
+  color: #fff;
+}
+
+/* قسم الخلفية */
+.hero-section {
+  background-image: url('https://via.placeholder.com/1920x1080'); /* استبدل برابط صورتك */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* إعدادات شريط التنقل */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #00ff00; /* لون الخط الأخضر */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* إعدادات النصوص */
+.hero-content {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #ddd;
+}
+/* إعدادات عامة */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-image: url('https://via.placeholder.com/1920x1080'); /* استبدل برابط خلفيتك */
+  background-size: cover;
+  background-position: center;
+  color: #000000;
+}
+
+/* شريط التنقل */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.6); /* خلفية شفافة */
+  padding: 10px 0;
+  text-align: center;
+  position: fixed; /* تثبيت القائمة أعلى الصفحة */
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+/* عناصر القائمة */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff; /* لون النص الأخضر */
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #fff; /* تغيير اللون عند التمرير */
+}
+
+  
